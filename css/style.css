@@ -1,0 +1,337 @@
+/* 
+Theme Name : Food lover
+Coder Name  Abdeldjalil Hachimi
+
+*/
+
+/* Start Global settings */
+:root {
+  --maincolor: #e58f00;
+  --secondcolor: #28282d;
+}
+/* End Global Settings*/
+
+/* Start header */
+#header-top {
+  background-image: url("../images/header.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+#header-top .navbar .nav-link:hover {
+  color: var(--maincolor);
+  transition: 0.5s ease-in-out;
+}
+#header-top .overly {
+  background: rgba(40, 40, 45, 0.9);
+  height: 100vh;
+  color: white;
+}
+#header-top nav .navbar-nav a {
+  color: white;
+  font-size: 19px;
+  font-family: "aachen_btroman", "Arial, sans-serif";
+}
+#header-top .right_main {
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+  justify-content: center;
+}
+#header-top .left_main {
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+  justify-content: center;
+}
+#header-top .left_main h1 {
+  color: var(--maincolor);
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "aachen_btroman", "Arial, sans-serif";
+}
+#header-top .left_main p {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+#header-top .left_main a {
+  display: block;
+  width: 180px;
+  margin-top: 20px;
+  text-decoration: none;
+  text-align: center;
+  color: var(--secondcolor);
+  font-family: "aachen_btroman", "Arial, sans-serif";
+  background: var(--maincolor);
+  padding: 10px 15px;
+}
+#header-top .left_main a:hover {
+  opacity: 0.5;
+}
+/* End header */
+
+/*  Start about su  */
+
+#about-us {
+  padding: 50px auto;
+  color: white;
+  background-color: var(--secondcolor);
+}
+#about-us .about-left {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+#about-us .about-left img {
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+#about-us .about_right {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+#about-us .about_right h2 {
+  color: var(--maincolor);
+  font-weight: bold;
+  font-family: "aachen_btroman", "Arial, sans-serif";
+}
+#about-us .about_right p {
+  line-height: 1.8;
+  font-family: "aachen_btroman", "Arial, sans-serif";
+}
+
+/* End about su  */
+
+/* Start Food quality */
+#food_quality {
+  padding: 80px auto;
+  color: white;
+  background-color: var(--secondcolor);
+}
+#food_quality .curved {
+  background-color: var(--maincolor);
+}
+
+/* End Food quality */
+
+/* Start our Gallary  */
+.our-gallary {
+  padding: 50px auto;
+}
+.our-gallary .gallary-title {
+  text-align: center;
+  color: var(--maincolor);
+  font-weight: bold;
+  font-family: "aachen_btroman", "Arial, sans-serif";
+}
+.our-gallary .img-container {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.our-gallary .img-container img {
+  width: 350px;
+  height: 450px;
+  margin: auto;
+}
+.our-gallary .overly {
+  background: rgba(229, 143, 0, 0.5);
+  position: absolute;
+  width: 350px;
+  height: 100%;
+  color: white;
+  text-align: center;
+  line-height: 440px;
+  cursor: pointer;
+  display: none;
+}
+.our-gallary .img-container:hover .overly {
+  display: block;
+}
+/* End our Gallary */
+
+/* start Enjoy our food  */
+.enjoy-our-food {
+  margin-top: 100px;
+  padding: 50px auto;
+  background-image: url("../images/header.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
+}
+.enjoy-our-food .food-descp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+.enjoy-our-food #food-content {
+  background-color: rgba(40, 40, 45, 0.9);
+  width: 500px;
+  padding: 30px;
+  border: 5px solid var(--maincolor);
+}
+.enjoy-our-food #food-content h4 {
+  text-align: center;
+  color: white;
+  font-family: "aachen_btroman", "Arial, sans-serif";
+  margin-bottom: 20px;
+}
+.enjoy-our-food #food-content p {
+  text-align: center;
+  color: white;
+  font-family: "aachen_btroman", "Arial, sans-serif";
+}
+/* End Enjoy our food */
+
+/* Start our Menu  */
+.our-menu {
+  padding: 50px auto;
+  background: var(--secondcolor);
+}
+
+.our-menu .menu {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.our-menu .menu h5 {
+  color: var(--maincolor);
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "aachen_btroman", "Arial, sans-serif";
+}
+.our-menu .menu p {
+  font-size: 14px;
+  font-family: "aachen_btroman", "Arial, sans-serif";
+}
+.our-menu .menu a.price {
+  color: #555;
+  font-family: "aachen_btroman", "Arial, sans-serif";
+  border: 1px solid var(--maincolor);
+}
+.our-menu .menu a.buy-now {
+  background: var(--maincolor);
+  color: white;
+}
+/* End our Menu */
+
+/* Start our meals */
+.best-meals {
+  background: var(--maincolor);
+  overflow: hidden;
+}
+.best-meals .meal-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+.best-meals .meal-content h5 {
+  font-size: 29px;
+  font-weight: bold;
+  color: white;
+  font-family: "aachen_btroman", "Arial, sans-serif";
+}
+.best-meals .meal-content p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: white;
+  font-family: "aachen_btroman", "Arial, sans-serif";
+}
+/* End our meals */
+
+/* Start Footer  */
+footer {
+  background: var(--secondcolor);
+  padding: 50px;
+  overflow: hidden;
+}
+footer .logo-food {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+footer .logo-food img {
+  width: 200px;
+  margin-bottom: 15px;
+}
+footer #manu-bar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+footer #manu-bar li {
+  margin-right: 10px;
+}
+footer #manu-bar li a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s ease-in-out;
+  font-family: "aachen_btroman", "Arial, sans-serif";
+}
+footer #manu-bar li a:hover {
+  color: var(--maincolor);
+}
+footer #social_media_links {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+footer #social_media_links li {
+  margin-right: 10px;
+}
+footer #social_media_links li a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+footer #social_media_links li a:hover {
+  color: var(--maincolor);
+}
+pre {
+  display: none !important;
+}
+/* End Footer */
+
+/* media query  */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+/*  Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+}
+
+/*  Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  #header-top .right_main {
+    display: none;
+  }
+  #about-us .about-left {
+    display: none;
+  }
+  #food_quality .white-plate {
+    display: none;
+  }
+  .best-meals .plate {
+    display: none;
+  }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+}
